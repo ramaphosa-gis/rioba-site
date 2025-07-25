@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/World_map_blank_without_borders.svg/2000px-World_map_blank_without_borders.svg.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #e0f2e9;
+  backdrop-filter: brightness(0.6);
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px 20px;
+  background-color: rgba(0, 51, 34, 0.8);
+  color: #cceedd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-style: italic;
+}
+
+section {
+  background-color: rgba(0, 51, 34, 0.8);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+section h2 {
+  border-bottom: 1px solid #99ccaa;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+a {
+  color: #aaffdd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 51, 34, 0.9);
+  font-size: 0.9rem;
+}
